@@ -1,0 +1,9 @@
+db.sqlite3
+.env
+*.env
+*.conf
+*.pem
+
+blog/images/*
+static/blog/images/*
+staticfiles/blog/images/*

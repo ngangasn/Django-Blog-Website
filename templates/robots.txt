@@ -1,0 +1,9 @@
+User-Agent: Googlebot
+User-Agent: Bingbot
+
+Disallow: /contact-page
+
+Allow: /home
+Allow: /blog
+
+Sitemap: https://domain.com/sitemap.xml

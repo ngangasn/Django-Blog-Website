@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}My Blog {% endblock %}
+
+{% block content %}
+    <div>
+      <h1>Articles</h1>
+      {% for blogpost in blogposts %}
+        <ul>
+          <li>
+            <a href="{{ blogpost.get_absolute_url }}">{{ blogpost.post_title }}</a>
+            <p class="lead">{{ blogpost.meta_description }}</p>
+          </li>
+        </ul>
+      {% endfor %}
+    </div>
+{% endblock %}
+{% block sidebar %}
+    <div class="sidebar">
+        <h2>About me</h2>
+        <p class="lead">
+            I am a <i>ROCKSTAR</i> Web developer and writer.
+        </p>
+    </div>
+{% endblock %}
+

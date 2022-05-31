@@ -7,3 +7,5 @@ db.sqlite3
 blog/images/*
 static/blog/images/*
 staticfiles/blog/images/*
+.idea
+.idea/*
